@@ -13,6 +13,24 @@
             rel="stylesheet"
             href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css"
         />
+        <style>
+            /* Ensure the dropdown menu background and text match the dark theme */
+            .app-nav li ul {
+                background-color: #282828; /* Use your theme's specific dark background hex */
+                border: 1px solid #444; /* Optional: add a subtle border for visibility */
+                color: #c8c8c8; /* Adjust text color to match */
+            }
+
+            /* Style the links inside the dropdown */
+            .app-nav li ul a {
+                color: inherit;
+            }
+
+            /* Optional: change background on hover for dropdown items */
+            .app-nav li ul li:hover {
+                background-color: #333;
+            }
+        </style>
     </head>
     <body>
         <div id="app"></div>
